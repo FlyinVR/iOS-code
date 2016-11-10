@@ -1,0 +1,6 @@
+framework module Pods_Accelerometer_GyroscopeUITests {
+  umbrella header "Pods-Accelerometer-GyroscopeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

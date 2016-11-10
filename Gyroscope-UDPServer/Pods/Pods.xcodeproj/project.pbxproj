@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152E778BE218F3CD4224FA5A61DADA98 /* Pods-Accelerometer-GyroscopeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEB63A7A1E58596888A0C53328181B /* Pods-Accelerometer-GyroscopeUITests-dummy.m */; };
+		158F6C81C102FDC7DD70AD82EFD323AC /* Pods-Accelerometer-Gyroscope-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 527EBA2BD341867CA795383B4C56BBA4 /* Pods-Accelerometer-Gyroscope-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30BC37D5E0799E8785736E7CE91944E7 /* Pods-Accelerometer-GyroscopeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE917E62F89276A303A3B5219F0ABC1 /* Pods-Accelerometer-GyroscopeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63E0A5460271ABE691AB4987E9EDC58A /* Pods-Accelerometer-Gyroscope-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F724BD7D1AF5C5B518E6E1574BF407 /* Pods-Accelerometer-Gyroscope-dummy.m */; };
+		6AAFA2F344A6B58F728AF958F3FE6D89 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8FFB2F306345702A20E3FE7CE6EF7 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		700167BC82E7BDBF65A570F773673E0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABC45C2732A4ED943A7E8ECF24F14F7 /* Foundation.framework */; };
+		92AED971B91C640191A5ABA1567FE358 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A110336E93C3E786F9B32956E29A3E /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		991BFD139F6A45C9B654960C2F6A7F09 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D696A8CDEBE87CDE80E57AE0E305C5F /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ACFE60AB34A7FEF697E6EEFB62436A8D /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D9F3F23E9E53DAFA379995A9E13E58 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1C36F8E1B1D69D37812562EF03FA7A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5135EC14FA83C331E94D40C19DAB0764 /* CFNetwork.framework */; };
+		B3F0FAF38C96A3D27B14861F6CF380E0 /* Pods-Accelerometer-GyroscopeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C322940B584BD28BB1F9535F7F6AEB1 /* Pods-Accelerometer-GyroscopeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB1036F959847925FB375F53C572A203 /* Pods-Accelerometer-GyroscopeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCD8B179384C16D17BFDE60B36C16D /* Pods-Accelerometer-GyroscopeTests-dummy.m */; };
+		C4CA08923E80FEB9EE70AF6E735F8C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABC45C2732A4ED943A7E8ECF24F14F7 /* Foundation.framework */; };
+		CEFE28420773FC61D2DB4778ABDC12A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABC45C2732A4ED943A7E8ECF24F14F7 /* Foundation.framework */; };
+		D9A44696356E299F3C9A4BFF9E57343F /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 098765466D421180F3953EF8EEDDCEF1 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEC040A88F757F42971C27C4FD01C790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABC45C2732A4ED943A7E8ECF24F14F7 /* Foundation.framework */; };
+		F45B40DF0BF596BDCD96B2D85EF848FA /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E98378F2CF04086E8088C6A14347C33 /* CocoaAsyncSocket-dummy.m */; };
+		F87F607CCD51536EC9CAD7F1488845C6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAF4AB1ECD042E4FED766B8370F6530 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C21172B13524274CE01B7A77EEBC5383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B37E19CA872A7535725D1E1946E5C271;
+			remoteInfo = CocoaAsyncSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00391C074E73999A6903B554767BF448 /* Pods-Accelerometer-GyroscopeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Accelerometer-GyroscopeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		098765466D421180F3953EF8EEDDCEF1 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		19E3E76DEDDAC6B7DA6E407B72B07A91 /* Pods-Accelerometer-Gyroscope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelerometer-Gyroscope.debug.xcconfig"; sourceTree = "<group>"; };
+		1CCAA8810A7E4724FBFB8950E2DCA6F0 /* Pods-Accelerometer-Gyroscope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelerometer-Gyroscope.release.xcconfig"; sourceTree = "<group>"; };
+		1D696A8CDEBE87CDE80E57AE0E305C5F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		1FFEB63A7A1E58596888A0C53328181B /* Pods-Accelerometer-GyroscopeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Accelerometer-GyroscopeUITests-dummy.m"; sourceTree = "<group>"; };
+		23E44025E576FB6FFD87EF76A7AE6B1B /* Pods-Accelerometer-GyroscopeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelerometer-GyroscopeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23F087673CE8A773D9C055468B833E92 /* Pods-Accelerometer-GyroscopeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelerometer-GyroscopeTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C322940B584BD28BB1F9535F7F6AEB1 /* Pods-Accelerometer-GyroscopeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Accelerometer-GyroscopeTests-umbrella.h"; sourceTree = "<group>"; };
+		2D4941E1D14B795ADBC8E1FE104F777A /* Pods-Accelerometer-Gyroscope.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Accelerometer-Gyroscope.modulemap"; sourceTree = "<group>"; };
+		2DDE8B5BDA900B3BCE09C7A2A49B19FC /* Pods-Accelerometer-GyroscopeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Accelerometer-GyroscopeTests-resources.sh"; sourceTree = "<group>"; };
+		2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		30061A53BAA63453E037421D5F9482D5 /* Pods-Accelerometer-GyroscopeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Accelerometer-GyroscopeUITests.modulemap"; sourceTree = "<group>"; };
+		35A06A5B3D7219450A2C4064B6D6F059 /* Pods-Accelerometer-GyroscopeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Accelerometer-GyroscopeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C36B4BA87A45380FCC0DB935C534D93 /* Pods-Accelerometer-GyroscopeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Accelerometer-GyroscopeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CA8FFB2F306345702A20E3FE7CE6EF7 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		4E15A836B4039369B285E714C3184578 /* Pods-Accelerometer-Gyroscope-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Accelerometer-Gyroscope-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FBCD8B179384C16D17BFDE60B36C16D /* Pods-Accelerometer-GyroscopeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Accelerometer-GyroscopeTests-dummy.m"; sourceTree = "<group>"; };
+		4FE917E62F89276A303A3B5219F0ABC1 /* Pods-Accelerometer-GyroscopeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Accelerometer-GyroscopeUITests-umbrella.h"; sourceTree = "<group>"; };
+		5135EC14FA83C331E94D40C19DAB0764 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		527EBA2BD341867CA795383B4C56BBA4 /* Pods-Accelerometer-Gyroscope-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Accelerometer-Gyroscope-umbrella.h"; sourceTree = "<group>"; };
+		698537FBBD5881CA03515C633B05953B /* Pods-Accelerometer-Gyroscope-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Accelerometer-Gyroscope-resources.sh"; sourceTree = "<group>"; };
+		6A4728BF5BC368501E85B85552AB518D /* Pods_Accelerometer_GyroscopeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accelerometer_GyroscopeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F9206B99E5B5423D6B61D755C011CC /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		7B3BAD1B5F038FB3BBB3DE6A3F24CA27 /* Pods-Accelerometer-GyroscopeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Accelerometer-GyroscopeTests-frameworks.sh"; sourceTree = "<group>"; };
+		7BEFE6E5157573A92A177DBE3D54B613 /* Pods_Accelerometer_Gyroscope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accelerometer_Gyroscope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAF4AB1ECD042E4FED766B8370F6530 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		84A110336E93C3E786F9B32956E29A3E /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		86340A99F20BEC0D9E6F18F9080B8720 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		8897EF90B2D55946A61AD5A10C38B75C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB6A3CB12B9E7EB89DB8AE678A28198 /* Pods-Accelerometer-GyroscopeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Accelerometer-GyroscopeTests.modulemap"; sourceTree = "<group>"; };
+		8E98378F2CF04086E8088C6A14347C33 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		996BCC6BA9B11DCD7FE335ADF8A161EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C3BA00872B79EB0758FC77C13F2084 /* Pods-Accelerometer-Gyroscope-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Accelerometer-Gyroscope-frameworks.sh"; sourceTree = "<group>"; };
+		C0659E96A6303ECF1BA5E7161DD49EB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC080C636C5F71D96BEF7E9A2BE7572 /* Pods-Accelerometer-GyroscopeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Accelerometer-GyroscopeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD072EA62B0E6A7565C7050FA926F0B5 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAA3C96C6F8FA3060E2345767AFC700 /* Pods-Accelerometer-GyroscopeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Accelerometer-GyroscopeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0F724BD7D1AF5C5B518E6E1574BF407 /* Pods-Accelerometer-Gyroscope-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Accelerometer-Gyroscope-dummy.m"; sourceTree = "<group>"; };
+		D53A2B5E85A50C4BF7906E9BD384E4E7 /* Pods-Accelerometer-Gyroscope-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Accelerometer-Gyroscope-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6D9F3F23E9E53DAFA379995A9E13E58 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		D73C19FFFAD037D568783F46149B7409 /* Pods_Accelerometer_GyroscopeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accelerometer_GyroscopeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FEEAD24BC6AEEE81D898E7276F6835 /* Pods-Accelerometer-GyroscopeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Accelerometer-GyroscopeUITests-resources.sh"; sourceTree = "<group>"; };
+		E74BFA80DE89C7AC1247182FBE21E2A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABC45C2732A4ED943A7E8ECF24F14F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED21F3AD8D4D96B5678667030CE9B5B0 /* Pods-Accelerometer-GyroscopeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelerometer-GyroscopeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F71999D8E49CEF0CA7DE502FC454D3E1 /* Pods-Accelerometer-GyroscopeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelerometer-GyroscopeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		588EE66FFDF3D1FB3BAE4CDE14D844F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC040A88F757F42971C27C4FD01C790 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8099C857C9CBFABDCB6F8AF7F2445D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CA08923E80FEB9EE70AF6E735F8C9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9ED45E2D8B8BCFB22AEA1A0810ABD96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C36F8E1B1D69D37812562EF03FA7A4 /* CFNetwork.framework in Frameworks */,
+				CEFE28420773FC61D2DB4778ABDC12A1 /* Foundation.framework in Frameworks */,
+				F87F607CCD51536EC9CAD7F1488845C6 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEF691B29D512222AB67B18F3A816A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700167BC82E7BDBF65A570F773673E0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F63D7412CB94B2866FC77C5A8816A25 /* Pods-Accelerometer-GyroscopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E74BFA80DE89C7AC1247182FBE21E2A9 /* Info.plist */,
+				30061A53BAA63453E037421D5F9482D5 /* Pods-Accelerometer-GyroscopeUITests.modulemap */,
+				35A06A5B3D7219450A2C4064B6D6F059 /* Pods-Accelerometer-GyroscopeUITests-acknowledgements.markdown */,
+				CDAA3C96C6F8FA3060E2345767AFC700 /* Pods-Accelerometer-GyroscopeUITests-acknowledgements.plist */,
+				1FFEB63A7A1E58596888A0C53328181B /* Pods-Accelerometer-GyroscopeUITests-dummy.m */,
+				00391C074E73999A6903B554767BF448 /* Pods-Accelerometer-GyroscopeUITests-frameworks.sh */,
+				E6FEEAD24BC6AEEE81D898E7276F6835 /* Pods-Accelerometer-GyroscopeUITests-resources.sh */,
+				4FE917E62F89276A303A3B5219F0ABC1 /* Pods-Accelerometer-GyroscopeUITests-umbrella.h */,
+				ED21F3AD8D4D96B5678667030CE9B5B0 /* Pods-Accelerometer-GyroscopeUITests.debug.xcconfig */,
+				23E44025E576FB6FFD87EF76A7AE6B1B /* Pods-Accelerometer-GyroscopeUITests.release.xcconfig */,
+			);
+			name = "Pods-Accelerometer-GyroscopeUITests";
+			path = "Target Support Files/Pods-Accelerometer-GyroscopeUITests";
+			sourceTree = "<group>";
+		};
+		1178F420F04662BB9B205EF659BBA2AB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5135EC14FA83C331E94D40C19DAB0764 /* CFNetwork.framework */,
+				EABC45C2732A4ED943A7E8ECF24F14F7 /* Foundation.framework */,
+				7CAF4AB1ECD042E4FED766B8370F6530 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1178F420F04662BB9B205EF659BBA2AB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3750E20CAB4987ACB8AB27B6C25C1D60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B16CCCC916CD9D13BBF53EA0C69C4615 /* CocoaAsyncSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		557C7CF8D4466D636F16673BAB31EEF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86340A99F20BEC0D9E6F18F9080B8720 /* CocoaAsyncSocket.modulemap */,
+				2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */,
+				8E98378F2CF04086E8088C6A14347C33 /* CocoaAsyncSocket-dummy.m */,
+				75F9206B99E5B5423D6B61D755C011CC /* CocoaAsyncSocket-prefix.pch */,
+				D6D9F3F23E9E53DAFA379995A9E13E58 /* CocoaAsyncSocket-umbrella.h */,
+				8897EF90B2D55946A61AD5A10C38B75C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		66111110D3C1F9FECCE6DCEA5487D930 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A71275F2F655B991375551F61147DA4B /* Pods-Accelerometer-Gyroscope */,
+				D2840516125433179332E1E1CED210B8 /* Pods-Accelerometer-GyroscopeTests */,
+				0F63D7412CB94B2866FC77C5A8816A25 /* Pods-Accelerometer-GyroscopeUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				3750E20CAB4987ACB8AB27B6C25C1D60 /* Pods */,
+				F77F946A11E272D997886FC0DD7C6BEE /* Products */,
+				66111110D3C1F9FECCE6DCEA5487D930 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		982AE8715AD34D5D99A50B615809B1F1 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8FFB2F306345702A20E3FE7CE6EF7 /* GCDAsyncSocket.h */,
+				1D696A8CDEBE87CDE80E57AE0E305C5F /* GCDAsyncSocket.m */,
+				84A110336E93C3E786F9B32956E29A3E /* GCDAsyncUdpSocket.h */,
+				098765466D421180F3953EF8EEDDCEF1 /* GCDAsyncUdpSocket.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		A71275F2F655B991375551F61147DA4B /* Pods-Accelerometer-Gyroscope */ = {
+			isa = PBXGroup;
+			children = (
+				996BCC6BA9B11DCD7FE335ADF8A161EE /* Info.plist */,
+				2D4941E1D14B795ADBC8E1FE104F777A /* Pods-Accelerometer-Gyroscope.modulemap */,
+				4E15A836B4039369B285E714C3184578 /* Pods-Accelerometer-Gyroscope-acknowledgements.markdown */,
+				D53A2B5E85A50C4BF7906E9BD384E4E7 /* Pods-Accelerometer-Gyroscope-acknowledgements.plist */,
+				D0F724BD7D1AF5C5B518E6E1574BF407 /* Pods-Accelerometer-Gyroscope-dummy.m */,
+				99C3BA00872B79EB0758FC77C13F2084 /* Pods-Accelerometer-Gyroscope-frameworks.sh */,
+				698537FBBD5881CA03515C633B05953B /* Pods-Accelerometer-Gyroscope-resources.sh */,
+				527EBA2BD341867CA795383B4C56BBA4 /* Pods-Accelerometer-Gyroscope-umbrella.h */,
+				19E3E76DEDDAC6B7DA6E407B72B07A91 /* Pods-Accelerometer-Gyroscope.debug.xcconfig */,
+				1CCAA8810A7E4724FBFB8950E2DCA6F0 /* Pods-Accelerometer-Gyroscope.release.xcconfig */,
+			);
+			name = "Pods-Accelerometer-Gyroscope";
+			path = "Target Support Files/Pods-Accelerometer-Gyroscope";
+			sourceTree = "<group>";
+		};
+		B16CCCC916CD9D13BBF53EA0C69C4615 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				982AE8715AD34D5D99A50B615809B1F1 /* GCD */,
+				557C7CF8D4466D636F16673BAB31EEF1 /* Support Files */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		D2840516125433179332E1E1CED210B8 /* Pods-Accelerometer-GyroscopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0659E96A6303ECF1BA5E7161DD49EB0 /* Info.plist */,
+				8BB6A3CB12B9E7EB89DB8AE678A28198 /* Pods-Accelerometer-GyroscopeTests.modulemap */,
+				3C36B4BA87A45380FCC0DB935C534D93 /* Pods-Accelerometer-GyroscopeTests-acknowledgements.markdown */,
+				CAC080C636C5F71D96BEF7E9A2BE7572 /* Pods-Accelerometer-GyroscopeTests-acknowledgements.plist */,
+				4FBCD8B179384C16D17BFDE60B36C16D /* Pods-Accelerometer-GyroscopeTests-dummy.m */,
+				7B3BAD1B5F038FB3BBB3DE6A3F24CA27 /* Pods-Accelerometer-GyroscopeTests-frameworks.sh */,
+				2DDE8B5BDA900B3BCE09C7A2A49B19FC /* Pods-Accelerometer-GyroscopeTests-resources.sh */,
+				2C322940B584BD28BB1F9535F7F6AEB1 /* Pods-Accelerometer-GyroscopeTests-umbrella.h */,
+				F71999D8E49CEF0CA7DE502FC454D3E1 /* Pods-Accelerometer-GyroscopeTests.debug.xcconfig */,
+				23F087673CE8A773D9C055468B833E92 /* Pods-Accelerometer-GyroscopeTests.release.xcconfig */,
+			);
+			name = "Pods-Accelerometer-GyroscopeTests";
+			path = "Target Support Files/Pods-Accelerometer-GyroscopeTests";
+			sourceTree = "<group>";
+		};
+		F77F946A11E272D997886FC0DD7C6BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD072EA62B0E6A7565C7050FA926F0B5 /* CocoaAsyncSocket.framework */,
+				7BEFE6E5157573A92A177DBE3D54B613 /* Pods_Accelerometer_Gyroscope.framework */,
+				6A4728BF5BC368501E85B85552AB518D /* Pods_Accelerometer_GyroscopeTests.framework */,
+				D73C19FFFAD037D568783F46149B7409 /* Pods_Accelerometer_GyroscopeUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2533E366A5FC35445B7070CB18610ED4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BC37D5E0799E8785736E7CE91944E7 /* Pods-Accelerometer-GyroscopeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E2A11BFD2FC14326C1B354C22E76BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158F6C81C102FDC7DD70AD82EFD323AC /* Pods-Accelerometer-Gyroscope-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F6279547BA8C6095CA882FB1059614 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFE60AB34A7FEF697E6EEFB62436A8D /* CocoaAsyncSocket-umbrella.h in Headers */,
+				6AAFA2F344A6B58F728AF958F3FE6D89 /* GCDAsyncSocket.h in Headers */,
+				92AED971B91C640191A5ABA1567FE358 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67476D2CEACC5A495E0B4526ECFB3B1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F0FAF38C96A3D27B14861F6CF380E0 /* Pods-Accelerometer-GyroscopeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4BF6A107BF1212F17E37199CB9AACCE1 /* Pods-Accelerometer-Gyroscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA82A94890FE42F12586C2AA190EA171 /* Build configuration list for PBXNativeTarget "Pods-Accelerometer-Gyroscope" */;
+			buildPhases = (
+				EA113E805806FF36D91F18C39B99FA26 /* Sources */,
+				8099C857C9CBFABDCB6F8AF7F2445D9C /* Frameworks */,
+				41E2A11BFD2FC14326C1B354C22E76BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2B5AC4000BD382606D74C8D72C6133D /* PBXTargetDependency */,
+			);
+			name = "Pods-Accelerometer-Gyroscope";
+			productName = "Pods-Accelerometer-Gyroscope";
+			productReference = 7BEFE6E5157573A92A177DBE3D54B613 /* Pods_Accelerometer_Gyroscope.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5183995672ABC98D9DD9CB01A214C9A4 /* Pods-Accelerometer-GyroscopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E535BA73DE72D2EEC14FC5EE8233101 /* Build configuration list for PBXNativeTarget "Pods-Accelerometer-GyroscopeUITests" */;
+			buildPhases = (
+				C6EF45F469F7EEBE3934BE0319595A4C /* Sources */,
+				588EE66FFDF3D1FB3BAE4CDE14D844F6 /* Frameworks */,
+				2533E366A5FC35445B7070CB18610ED4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Accelerometer-GyroscopeUITests";
+			productName = "Pods-Accelerometer-GyroscopeUITests";
+			productReference = D73C19FFFAD037D568783F46149B7409 /* Pods_Accelerometer_GyroscopeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E96A35F07014AEB745A91DE5F479A37 /* Pods-Accelerometer-GyroscopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3901C2BD5FF990FF3FD4F17C6C5268D /* Build configuration list for PBXNativeTarget "Pods-Accelerometer-GyroscopeTests" */;
+			buildPhases = (
+				26F55309257C3D4CF9E6200B19C3A8FA /* Sources */,
+				CDEF691B29D512222AB67B18F3A816A8 /* Frameworks */,
+				67476D2CEACC5A495E0B4526ECFB3B1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Accelerometer-GyroscopeTests";
+			productName = "Pods-Accelerometer-GyroscopeTests";
+			productReference = 6A4728BF5BC368501E85B85552AB518D /* Pods_Accelerometer_GyroscopeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B37E19CA872A7535725D1E1946E5C271 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551479B287B69C7447DFBC6CA5EADF0B /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				217D9EA001DB8A7A00EBCC79A99280A3 /* Sources */,
+				B9ED45E2D8B8BCFB22AEA1A0810ABD96 /* Frameworks */,
+				41F6279547BA8C6095CA882FB1059614 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = CD072EA62B0E6A7565C7050FA926F0B5 /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F77F946A11E272D997886FC0DD7C6BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B37E19CA872A7535725D1E1946E5C271 /* CocoaAsyncSocket */,
+				4BF6A107BF1212F17E37199CB9AACCE1 /* Pods-Accelerometer-Gyroscope */,
+				6E96A35F07014AEB745A91DE5F479A37 /* Pods-Accelerometer-GyroscopeTests */,
+				5183995672ABC98D9DD9CB01A214C9A4 /* Pods-Accelerometer-GyroscopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		217D9EA001DB8A7A00EBCC79A99280A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45B40DF0BF596BDCD96B2D85EF848FA /* CocoaAsyncSocket-dummy.m in Sources */,
+				991BFD139F6A45C9B654960C2F6A7F09 /* GCDAsyncSocket.m in Sources */,
+				D9A44696356E299F3C9A4BFF9E57343F /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F55309257C3D4CF9E6200B19C3A8FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1036F959847925FB375F53C572A203 /* Pods-Accelerometer-GyroscopeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6EF45F469F7EEBE3934BE0319595A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152E778BE218F3CD4224FA5A61DADA98 /* Pods-Accelerometer-GyroscopeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA113E805806FF36D91F18C39B99FA26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E0A5460271ABE691AB4987E9EDC58A /* Pods-Accelerometer-Gyroscope-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2B5AC4000BD382606D74C8D72C6133D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = B37E19CA872A7535725D1E1946E5C271 /* CocoaAsyncSocket */;
+			targetProxy = C21172B13524274CE01B7A77EEBC5383 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DF405E4FC59713B6E93AA5E8E93F1C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E44025E576FB6FFD87EF76A7AE6B1B /* Pods-Accelerometer-GyroscopeUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Accelerometer-GyroscopeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Accelerometer-GyroscopeUITests/Pods-Accelerometer-GyroscopeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Accelerometer_GyroscopeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3BE0E843FCFA5DB78583F9D25B2B9F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F087673CE8A773D9C055468B833E92 /* Pods-Accelerometer-GyroscopeTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Accelerometer-GyroscopeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Accelerometer-GyroscopeTests/Pods-Accelerometer-GyroscopeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Accelerometer_GyroscopeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FB83FB7CE9EA6D46C083C38F03C6244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED21F3AD8D4D96B5678667030CE9B5B0 /* Pods-Accelerometer-GyroscopeUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Accelerometer-GyroscopeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Accelerometer-GyroscopeUITests/Pods-Accelerometer-GyroscopeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Accelerometer_GyroscopeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		445696A84D5A84FA148890697170E2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCAA8810A7E4724FBFB8950E2DCA6F0 /* Pods-Accelerometer-Gyroscope.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Accelerometer-Gyroscope/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Accelerometer-Gyroscope/Pods-Accelerometer-Gyroscope.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Accelerometer_Gyroscope;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F189B1B2FEF75FE61744F6AA6FEB948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87674E4728009D457DD2A076799D719C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9183EE32F24893802BBD4ADB99977024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E3E76DEDDAC6B7DA6E407B72B07A91 /* Pods-Accelerometer-Gyroscope.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Accelerometer-Gyroscope/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Accelerometer-Gyroscope/Pods-Accelerometer-Gyroscope.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Accelerometer_Gyroscope;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E045120B3C4CD59AB5E9473D9A23B64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71999D8E49CEF0CA7DE502FC454D3E1 /* Pods-Accelerometer-GyroscopeTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Accelerometer-GyroscopeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Accelerometer-GyroscopeTests/Pods-Accelerometer-GyroscopeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Accelerometer_GyroscopeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
+				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551479B287B69C7447DFBC6CA5EADF0B /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87674E4728009D457DD2A076799D719C /* Debug */,
+				4F189B1B2FEF75FE61744F6AA6FEB948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E535BA73DE72D2EEC14FC5EE8233101 /* Build configuration list for PBXNativeTarget "Pods-Accelerometer-GyroscopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB83FB7CE9EA6D46C083C38F03C6244 /* Debug */,
+				0DF405E4FC59713B6E93AA5E8E93F1C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3901C2BD5FF990FF3FD4F17C6C5268D /* Build configuration list for PBXNativeTarget "Pods-Accelerometer-GyroscopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E045120B3C4CD59AB5E9473D9A23B64E /* Debug */,
+				3BE0E843FCFA5DB78583F9D25B2B9F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA82A94890FE42F12586C2AA190EA171 /* Build configuration list for PBXNativeTarget "Pods-Accelerometer-Gyroscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9183EE32F24893802BBD4ADB99977024 /* Debug */,
+				445696A84D5A84FA148890697170E2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
